@@ -42,13 +42,11 @@
                 {src:"images/banner/slide_img02.jpg"}
             ]
         });
+
         //Scroll Animation
-        var wow = new WOW(
-            {
-                mobile:true
-            }
-        );
-        wow.init();
+        if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+            new WOW().init();
+        };
     });
 
     //Feedback Carousel
