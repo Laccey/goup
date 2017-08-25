@@ -221,6 +221,10 @@ a.scroll-top:focus{
     color:#d58512;
     background-color: #1F0C07;
 }
+
+.nav>li>a:focus,.nav>li>a:hover{
+    background-color: transparent;
+}
 /*
 #Intro
 ---------------------------------------------*/
