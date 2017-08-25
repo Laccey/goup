@@ -32,7 +32,7 @@ body{
     text-transform: uppercase;
     letter-spacing: .1em;
 }
-.btn-success{
+.btn-success,.btn-success:hover{
     background-color: #00c898;
 }
 p{
@@ -55,7 +55,7 @@ p{
     opacity: 0;
     transition: all ease-in-out 0.3s;
 }
-a.scroll-top:focus{
+a.scroll-top:focus,a:hover{
     color:#00c898;
 }
 .appear-nav .scroll-top{
@@ -211,10 +211,10 @@ a.scroll-top:focus{
 
 .navbar-nav li a{
     color:#fff;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 300;
-    text-transform: uppercase;
     padding:20px 15px;
+    margin-left: 50px;
 }
 
 .navbar-nav li.active a,.navbar-nav li a:hover{
